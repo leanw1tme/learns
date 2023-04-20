@@ -1,1 +1,1 @@
-<img src="https://www.limesurvey.org/images/limesurvey/svg/logo_limesurvey_head.svg" width="600" alt='Logo' />
+<img src="https://github.com/leanw1tme/limesurvey/blob/main/assets/images/wife.png" width="600" alt='Logo' />
