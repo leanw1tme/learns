@@ -52,32 +52,6 @@ foreach ($systemInfos as $key => $systemInfo) {
 <!-- Footer -->
 <footer class="container-fluid footer d-flex flex-grow-1 flex-column justify-content-end text-end py-3 mt-5">
     <div>
-        <a data-bs-toggle="tooltip" title='<?php eT("Visit our website!"); ?>' href='https://community.limesurvey.org' target='_blank'>LimeSurvey Community Edition</a>
-        <?php if (Permission::model()->hasGlobalPermission('superadmin', 'read')) { ?>
-            <a href="#modalSystemInformation" data-bs-toggle="modal" title="<?= gT("Get system information") ?>">
-            <?php } ?>
-            <?php echo $versiontitle . "  " . $versionnumber . $buildtext; ?>
-            <?php if (Permission::model()->hasGlobalPermission('superadmin', 'read')) { ?>
-            </a>
-        <?php } ?>
-
-        <!-- Support / Donate -->
-        <?php
-        $this->widget('ext.ButtonWidget.ButtonWidget', [
-            'name' => '',
-            'id' => 'donate-button',
-            'text' => gT('Donate'),
-            'icon' => 'ri-service-fill',
-            'iconPosition' => 'right',
-            'link' => 'https://donate.limesurvey.org',
-            'htmlOptions' =>
-            [
-                'class' => 'btn btn-primary btn-sm ms-4',
-                'title' => sprintf(gT("Support this project - Donate to %s!"), 'LimeSurvey'),
-                'data-bs-toggle' => 'tooltip',
-                'target' => '_blank'
-            ],
-        ]); ?>
 
         <!-- Help button -->
         <div class="d-inline-block ms-5 mt-3 mt-sm-0">
