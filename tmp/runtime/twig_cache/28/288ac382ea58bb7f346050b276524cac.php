@@ -71,7 +71,7 @@ class __TwigTemplate_bc4c8dc63c3e24056607022d89d06502 extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "./subviews/messages/no_js_alert.twig", "D:\\xamp\\htdocs\\limesurvey\\themes\\survey\\vanilla\\views\\subviews\\messages\\no_js_alert.twig");
+        return new Source("", "./subviews/messages/no_js_alert.twig", "D:\\xamp\\htdocs\\learns\\themes\\survey\\vanilla\\views\\subviews\\messages\\no_js_alert.twig");
     }
     
     public function checkSecurity()

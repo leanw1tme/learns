@@ -120,13 +120,6 @@ NOTE: Feel free to ask for functions, variables, etc, that you feel are missing 
                         <div class="col-12">
                             {# include the alert for no JavaScript #}
                             {{ include('./subviews/messages/no_js_alert.twig') }}
-                            <div class="row justify-content-center">
-                                <div
-                                    id="{{ aSurveyInfo.id.surveylistrowjumbotron }}" {{ aSurveyInfo.attr.surveylistrowjumbotron }}>
-                                    {{ image('./files/survey_list_header.png', aSurveyInfo.name, {"class": "img-fluid mx-auto d-block"}) }}
-                                    <span class="text-center">{{ aSurveyInfo.sSiteName }}</span>
-                                </div>
-                            </div>
                             <div class="row">
                                 <div class="col-4"></div>
                                 <div class="col">
@@ -181,22 +174,6 @@ NOTE: Feel free to ask for functions, variables, etc, that you feel are missing 
                         <div
                             class="{{ aSurveyInfo.class.surveylistfootercont }} container" {{ aSurveyInfo.attr.surveylistfootercont }}>
                             <div {{ aSurveyInfo.attr.surveylistfootercontp }} class="row">
-                                <div class="col-6 col-md-12">
-                                    <a {{ aSurveyInfo.attr.surveylistfootercontpaa }}>
-                                        {{ image("./files/poweredby.png", "LimeSurvey Survey Software", {class: 'img-fluid'}) }}
-                                    </a>
-                                </div>
-                                <div class="col-12 d-block d-sm-none d-md-block text-center">
-                                    <a {{ aSurveyInfo.attr.surveylistfootercontpab }}>
-                                        The Online Survey Tool
-                                    </a>
-                                    - Free & Open Source
-                                </div>
-                                <div class="col-6 d-none d-sm-block d-md-none text-center">
-                                    <a {{ aSurveyInfo.attr.surveylistfootercontpab }}>
-                                        Online Surveytool
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>

@@ -199,10 +199,6 @@ class __TwigTemplate_2c6c77814759e602421aabdf4a018663 extends Template
         echo $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["aSurveyInfo"] ?? null), "attr", [], "any", false, false, true, 125), "surveylistrowjumbotron", [], "any", false, false, true, 125), 125, $this->source);
         echo ">
                                     ";
-        // line 126
-        echo LS_Twig_Extension::image("./files/survey_list_header.png", $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["aSurveyInfo"] ?? null), "name", [], "any", false, false, true, 126), 126, $this->source), ["class" => "img-fluid mx-auto d-block"]);
-        echo "
-                                    <span class=\"text-center\">";
         // line 127
         echo $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["aSurveyInfo"] ?? null), "sSiteName", [], "any", false, false, true, 127), 127, $this->source);
         echo "</span>
@@ -352,19 +348,11 @@ class __TwigTemplate_2c6c77814759e602421aabdf4a018663 extends Template
         echo $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["aSurveyInfo"] ?? null), "attr", [], "any", false, false, true, 185), "surveylistfootercontpaa", [], "any", false, false, true, 185), 185, $this->source);
         echo ">
                                         ";
-        // line 186
-        echo LS_Twig_Extension::image("./files/poweredby.png", "LimeSurvey Survey Software", ["class" => "img-fluid"]);
-        echo "
-                                    </a>
-                                </div>
-                                <div class=\"col-12 d-block d-sm-none d-md-block text-center\">
-                                    <a ";
         // line 190
         echo $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["aSurveyInfo"] ?? null), "attr", [], "any", false, false, true, 190), "surveylistfootercontpab", [], "any", false, false, true, 190), 190, $this->source);
         echo ">
-                                        The Online Survey Tool
+                                        The Online Survey Learns
                                     </a>
-                                    - Free & Open Source
                                 </div>
                                 <div class=\"col-6 d-none d-sm-block d-md-none text-center\">
                                     <a ";

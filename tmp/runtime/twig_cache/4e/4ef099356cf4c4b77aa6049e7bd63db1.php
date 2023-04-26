@@ -153,7 +153,7 @@ class __TwigTemplate_8d64f00c265cfd03344012238491fdf3 extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "./subviews/messages/welcome.twig", "D:\\xamp\\htdocs\\limesurvey\\themes\\survey\\vanilla\\views\\subviews\\messages\\welcome.twig");
+        return new Source("", "./subviews/messages/welcome.twig", "D:\\xamp\\htdocs\\learns\\themes\\survey\\vanilla\\views\\subviews\\messages\\welcome.twig");
     }
     
     public function checkSecurity()

@@ -14,30 +14,5 @@
                 <i class=" ri-external-link-fill  float-end"></i>
             </a>
         </li>
-        <li>
-            <a href="https://forums.limesurvey.org" target="_blank" class="dropdown-item">
-                <span class="fa-stack halfed">
-                    <span class="ri-chat-3-fill fa-stack-1x" ></span>
-                    <span class="ri-group-fill fa-inverse fa-stack-1x halfed" ></span>
-                </span>
-                <?php eT('LimeSurvey Forums');?>
-                <i class=" ri-external-link-fill  float-end"></i>
-            </a>
-        </li>
-        <li class="dropdown-divider"></li>
-        <li>
-            <a href="https://bugs.limesurvey.org/" target="_blank" class="dropdown-item">
-                <span class="ri-bug-fill" ></span>
-                <?php eT('Report bugs');?>
-                <i class=" ri-external-link-fill  float-end"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://limesurvey.org/" target="_blank" class="dropdown-item">
-                <span class="ri-star-fill" ></span>
-                <?php eT('LimeSurvey Homepage');?>
-                <i class=" ri-external-link-fill  float-end"></i>
-            </a>
-        </li>
     </ul>
 </li>

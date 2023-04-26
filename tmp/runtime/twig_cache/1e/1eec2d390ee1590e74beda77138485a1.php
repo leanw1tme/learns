@@ -108,7 +108,7 @@ class __TwigTemplate_6055732bf26c81c990cd3e9d4653e1f5 extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "./subviews/content/firstpage.twig", "D:\\xamp\\htdocs\\limesurvey\\themes\\survey\\vanilla\\views\\subviews\\content\\firstpage.twig");
+        return new Source("", "./subviews/content/firstpage.twig", "D:\\xamp\\htdocs\\learns\\themes\\survey\\vanilla\\views\\subviews\\content\\firstpage.twig");
     }
     
     public function checkSecurity()

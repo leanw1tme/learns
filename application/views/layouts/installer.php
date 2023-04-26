@@ -32,11 +32,6 @@
     </div>
     <?php echo $content; ?>
 
-    <div class="row m-3 mt-5">
-        <div class="col-12" style="text-align: center;">
-            <img src="<?php echo Yii::app()->baseUrl; ?>/installer/images/poweredby.png" alt="Powered by LimeSurvey"/>
-        </div>
-    </div>
 </div>
 
 </body>

@@ -92,7 +92,7 @@ class __TwigTemplate_21af7f37ca07ec07dd0de4c83333a630 extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "/subviews/privacy/privacy_datasecurity_notice_label.twig", "D:\\xamp\\htdocs\\limesurvey\\themes\\survey\\vanilla\\views\\subviews\\privacy\\privacy_datasecurity_notice_label.twig");
+        return new Source("", "/subviews/privacy/privacy_datasecurity_notice_label.twig", "D:\\xamp\\htdocs\\learns\\themes\\survey\\vanilla\\views\\subviews\\privacy\\privacy_datasecurity_notice_label.twig");
     }
     
     public function checkSecurity()
