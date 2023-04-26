@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This class will generate all the twig cache file from command line, even if LimeSurvey is not installed.
+ * This class will generate all the twig cache file from command line, even if Learns is not installed.
  * The current use case is to generate the translation files using Glot Press.
  * In the future, it could be use to boost performance of first survey rendering (can be useful after a tmp cleanup, an update, etc).
  *
@@ -36,7 +36,7 @@ class TwigCommand extends CConsoleCommand
 
     public function actionIndex()
     {
-        echo "This class will generate all the twig cache file from command line, even if LimeSurvey is not installed.\n";
+        echo "This class will generate all the twig cache file from command line, even if Learns is not installed.\n";
         echo "The current use case is to generate the translation files using Glot Press.\n";
         echo "In the future, it could be use to boost performance of first survey rendering (can be useful after a tmp cleanup, an update, etc).\n";
         echo "\n";

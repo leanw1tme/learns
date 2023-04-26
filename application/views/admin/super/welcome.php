@@ -27,15 +27,6 @@ gT('Themes');
 <!-- Welcome view -->
 <div class="welcome full-page-wrapper">
 
-    <!-- Logo & Presentation -->
-    <?php if ($bShowLogo) : ?>
-        <div class="jumbotron" id="welcome-jumbotron">
-            <img alt="logo" src="<?php echo LOGO_URL; ?>" id="lime-logo" class="profile-img-card img-fluid" />
-            <p class="d-xs-none"><?php echo PRESENTATION; // Defined in AdminController
-                                    ?></p>
-        </div>
-    <?php endif; ?>
-
     <!-- Message when first start -->
     <?php if ($countSurveyList == 0  && Permission::model()->hasGlobalPermission('surveys', 'create')) : ?>
         <script type="text/javascript">
