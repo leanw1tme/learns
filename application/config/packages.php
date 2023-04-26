@@ -36,9 +36,9 @@ return array(
         )
     ),
     /* For public template functionnality */
-    'Learns-public'=>array(
-        'devBaseUrl'  => 'assets/packages/Learns/',
-        'basePath' => 'core.Learns', /* public part only : rename directory ? */
+    'limesurvey-public'=>array(
+        'devBaseUrl'  => 'assets/packages/limesurvey/',
+        'basePath' => 'core.limesurvey', /* public part only : rename directory ? */
         'css'=> array(
             'survey.css',
         ),
@@ -94,7 +94,7 @@ return array(
             'template-core.js',
         ),
         'depends' => array(
-            'Learns-public',
+            'limesurvey-public',
             'embeddables'
         )
     ),

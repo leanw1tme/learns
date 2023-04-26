@@ -29,13 +29,13 @@ if (function_exists('mb_internal_encoding')) {
 $internalConfig = array(
     'basePath' => dirname(dirname(__FILE__)),
 
-    'name' => 'Learns',
+    'name' => 'LimeSurvey',
     'localeClass' =>  'LSYii_Locale',
     'defaultController' => 'surveys',
 
     'aliases' => array(
 
-        // Learns's Yii modules
+        // LimeSurvey's Yii modules
         'modules' => realpath(__DIR__ . '/../../modules'),
 
         // Third party path
@@ -217,7 +217,7 @@ $internalConfig = array(
         ),
         'pluginManager' => array(
             'class' => "\\LimeSurvey\\PluginManager\\PluginManager",
-            'api' => "\\LimeSurvey\\PluginManager\\LimeSurveyApi"
+            'api' => "\\LimeSurvey\\PluginManager\\LimesurveyApi"
         ),
         'format' => array(
             'class' => 'application.extensions.CustomFormatter'
@@ -445,13 +445,13 @@ $internalConfig = array(
             ),
         ),
         'extensionUpdaterServiceLocator' => array(
-            'class' => '\Learns\ExtensionInstaller\ExtensionUpdaterServiceLocator',
+            'class' => '\LimeSurvey\ExtensionInstaller\ExtensionUpdaterServiceLocator',
         ),
         'versionFetcherServiceLocator' => array(
-            'class' => '\Learns\ExtensionInstaller\VersionFetcherServiceLocator',
+            'class' => '\LimeSurvey\ExtensionInstaller\VersionFetcherServiceLocator',
         ),
         'formExtensionService' => [
-            'class' => '\Learns\Libraries\FormExtension\FormExtensionService',
+            'class' => '\LimeSurvey\Libraries\FormExtension\FormExtensionService',
         ]
     )
 );

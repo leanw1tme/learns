@@ -24,10 +24,10 @@
 |
 */
 return array(
-    'name' => 'Learns',
+    'name' => 'LimeSurvey',
     'components' => array(
         'db' => array(
-            'connectionString' => 'pgsql:host=localhost;port=5432;user=postgres;password=somepassword;dbname=learns;',
+            'connectionString' => 'pgsql:host=localhost;port=5432;user=postgres;password=somepassword;dbname=limesurvey;',
             'emulatePrepare' => true,
             'username' => 'postgres',
             'password' => 'somepassword',
@@ -57,7 +57,7 @@ return array(
     // debug: Set this to 1 if you are looking for errors. If you still get no errors after enabling this
     // then please check your error-logs - either in your hosting provider admin panel or in some /logs directory
     // on your webspace.
-    // Learns developers: Set this to 2 to additionally display STRICT PHP error messages and get full access to standard themes
+    // LimeSurvey developers: Set this to 2 to additionally display STRICT PHP error messages and get full access to standard themes
         'debug'=>0,
         'debugsql'=>0, // Set this to 1 to enanble sql logging, only active when debug = 2
         // 'force_xmlsettings_for_survey_rendering' => true, // Uncomment if you want to force the use of the XML file rather than DB (for easy theme development)
