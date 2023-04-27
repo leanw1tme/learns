@@ -1,0 +1,21 @@
+<config>
+    <metadata>
+        <name>SocialMediaRegistration</name>
+        <type>plugin</type>
+        <creationDate>2019-03-13</creationDate>
+        <lastUpdate>2019-03-13</lastUpdate>
+        <author>Markus Flür</author>
+        <authorUrl>https://github.com/lacrioque</authorUrl>
+        <version>1.0.0</version>
+        <license>GNU General Public License version 2 or later</license>
+        <description><![CDATA[Allow participants to register by using social media accounts.]]></description>
+    </metadata>
+    <compatibility>
+        <version>5.0</version>
+        <version>6.0</version>
+        <version>7.0</version>
+    </compatibility>
+
+        <updaters disabled="disabled">
+    </updaters>
+</config>

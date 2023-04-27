@@ -1,0 +1,5 @@
+#limesurvey>div:not(.register-form-column-additions) {
+    visibility: hidden !important;
+    height:1px !important;
+    overflow: hidden !important; 
+}

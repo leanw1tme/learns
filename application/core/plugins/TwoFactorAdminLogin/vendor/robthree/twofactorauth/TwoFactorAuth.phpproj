@@ -62,7 +62,6 @@
     <Content Include=".travis.yml" />
     <Content Include="composer.json" />
     <Content Include="composer.lock" />
-    <Content Include="logo.png" />
     <Content Include="multifactorauthforeveryone.png" />
     <Content Include="LICENSE" />
     <Content Include="phpunit.xml" />

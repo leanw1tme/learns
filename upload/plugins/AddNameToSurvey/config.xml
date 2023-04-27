@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <metadata>
+        <name>AddNameToSurvey</name>
+        <type>plugin</type>
+        <creationDate>2023-04-27</creationDate>
+        <last_update>2023-04-27</last_update>
+        <author>LeVeL</author>
+        <authorUrl>https://www.learns.org</authorUrl>
+        <version>0.0.1</version>
+        <license>GNU General Public License version 1 or later</license>
+        <description><![CDATA[Добавляет авторизацию с вводом name для открытого типа опросов]]></description>
+    </metadata>
+
+    <compatibility>
+        <version>4.0</version>
+        <version>5.0</version>
+        <version>6.0</version>
+        <version>7.0</version>
+    </compatibility>
+
+    <updaters disabled="disabled">
+    </updaters>
+</config>

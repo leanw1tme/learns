@@ -80,7 +80,7 @@ class __TwigTemplate_c538741f07167b6b5b22cf9327df7e1c extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "./subviews/navigation/question_index_buttons.twig", "D:\\xamp\\htdocs\\limesurvey\\themes\\survey\\vanilla\\views\\subviews\\navigation\\question_index_buttons.twig");
+        return new Source("", "./subviews/navigation/question_index_buttons.twig", "D:\\xamp\\htdocs\\learns\\themes\\survey\\vanilla\\views\\subviews\\navigation\\question_index_buttons.twig");
     }
     
     public function checkSecurity()
